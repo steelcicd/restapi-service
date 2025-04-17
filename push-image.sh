@@ -1,6 +1,5 @@
 REGION=$1
 REGISTRY_URI=$2
-PROJECT_DIR=$3
 
 echo 'Building image...'
 # build image

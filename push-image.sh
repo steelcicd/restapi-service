@@ -4,7 +4,7 @@ PROJECT_DIR=$3
 
 echo 'Building image...'
 # build image
-docker build -t $REGISTRY_URI:latest $PROJECT_DIR
+docker build -t $REGISTRY_URI:latest .
 
 echo 'Pushing image...'
 # login to ecr
